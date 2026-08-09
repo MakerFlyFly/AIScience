@@ -1,0 +1,10 @@
+{
+  "schema_version": "1.0",
+  "canonical_language": "en",
+  "canonical_manuscript_sha256": null,
+  "reader_language": "zh-CN",
+  "reader_manuscript_sha256": null,
+  "reader_status": "stale",
+  "entries": []
+}
+

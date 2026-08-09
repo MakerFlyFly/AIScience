@@ -1,0 +1,4 @@
+interface:
+  display_name: "科研协作总控"
+  short_description: "统筹研究合同、文献、实验、双语论文、审核与交付的可追踪科研流程"
+  default_prompt: "使用 $research-orchestrator 接收并推进这个科研项目，在必要的 Human Gate 暂停并用中文汇报。"

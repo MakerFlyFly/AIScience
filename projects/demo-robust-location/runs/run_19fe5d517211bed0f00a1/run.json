@@ -1,0 +1,84 @@
+{
+  "argv": [
+    "python",
+    "experiments/robust_location.py"
+  ],
+  "authorization": {
+    "inputs": [],
+    "protocol": {
+      "path": "design/protocol.md",
+      "sha256": "eb4a0933f8ae1fc9c5d55662ea2c91421d71f6299bbb3b5ba0b9dca5487834dc"
+    },
+    "scripts": [
+      {
+        "path": "experiments/robust_location.py",
+        "sha256": "827a5fb9cba44aa0f5a660b56bdee7542256dc552907969152be14143dfaf651"
+      }
+    ]
+  },
+  "basis_commit": "ad0db792ac0897f93511191cf350e0f34f3a00b6",
+  "created_at": "2026-08-09T09:22:55.393242Z",
+  "demo_only": true,
+  "enforcement": {
+    "filesystem_boundary": "observed_only",
+    "network": "observed_only",
+    "shell_disabled": "hard"
+  },
+  "environment": {
+    "fingerprint_sha256": "81ff63e1617f95d6db4f883fa2c28eab63c986291071086e5e2bd060ce72a281"
+  },
+  "execution": {
+    "callable": "aiscience.demo._simulate",
+    "evidence": "observed",
+    "kind": "in_process_demo"
+  },
+  "logs": {
+    "stderr": {
+      "path": "logs/stderr.log",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "storage_policy": "git_eligible"
+    },
+    "stdout": {
+      "path": "logs/stdout.log",
+      "sha256": "c11580540fadc7967dfdd33ae7328d0f3f5f7c3006f5576adf83c21b5d11754b",
+      "storage_policy": "git_eligible"
+    }
+  },
+  "network_used": false,
+  "outputs": [
+    {
+      "archived_path": "artifacts/trials.csv",
+      "path": "results/trials.csv",
+      "sha256": "2591fe56d715b76929f50be2c59148534a734ca346eb24187dae19829a28c1ed",
+      "storage_policy": "git_eligible"
+    },
+    {
+      "archived_path": "artifacts/summary.json",
+      "path": "results/summary.json",
+      "sha256": "fbbbee9540bd5df1251df4ebc7d0e2e9cbdc42cfc11dca5fac02c50131bab0d9",
+      "storage_policy": "git_eligible"
+    }
+  ],
+  "parameters": {
+    "contamination": 0.1,
+    "outlier_scale": 10.0,
+    "replicates": 200,
+    "sample_size": 50
+  },
+  "plan_id": "robust-location",
+  "reproducibility": "full",
+  "reproduction_command": {
+    "argv": [
+      "python",
+      "experiments/robust_location.py"
+    ],
+    "evidence": "declared",
+    "shell": false
+  },
+  "run_id": "run_19fe5d517211bed0f00a1",
+  "schema_version": "1.0",
+  "seeds": {
+    "python_random": 20260809
+  },
+  "status": "completed"
+}

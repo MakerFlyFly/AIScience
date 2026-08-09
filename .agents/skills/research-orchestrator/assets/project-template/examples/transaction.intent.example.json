@@ -1,0 +1,8 @@
+{
+  "schema_version": "1.0",
+  "transaction_id": "txn_019000000000abcdef12",
+  "project_id": "demo-project",
+  "phase": "prepared",
+  "object_path": "objects/claim/claim_019000000000abcdef12.v1.json",
+  "fixture_only": true
+}

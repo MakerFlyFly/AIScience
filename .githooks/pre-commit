@@ -1,0 +1,3 @@
+#!/bin/sh
+set -eu
+uv run --python 3.12 aiscience repo-scan

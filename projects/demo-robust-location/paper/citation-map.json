@@ -1,0 +1,49 @@
+{
+  "chinese_manuscript_sha256": "d02095486c2a49544fdb6456001134add1ec3c94b0d9b6f7109db3f222fc532e",
+  "chinese_source_english_sha256": "4c81a9573e7c107f8e1a11b3a90abdbf53d10505b51fe20b58572abb14d09179",
+  "claims": [
+    {
+      "citations": [],
+      "claim_id": "claim_19fe5d517217857e0bd0b",
+      "evidence_ids": [],
+      "limitations": [
+        "single synthetic setting",
+        "fixed seed"
+      ],
+      "numbers": [
+        "0.492",
+        "0.178",
+        "63.8%"
+      ],
+      "run_ids": [
+        "run_19fe5d517211bed0f00a1"
+      ],
+      "support_status": "supported"
+    },
+    {
+      "citations": [
+        "huber1964"
+      ],
+      "claim_id": "claim_19fe5d51721babb86e3dd",
+      "evidence_ids": [
+        "evcard_19fe5d51721c95bbb95aa"
+      ],
+      "figures": [
+        "fig:robustness"
+      ],
+      "numbers": [],
+      "run_ids": [
+        "run_19fe5d517211bed0f00a1"
+      ],
+      "support_status": "supported"
+    }
+  ],
+  "english_manuscript_sha256": "4c81a9573e7c107f8e1a11b3a90abdbf53d10505b51fe20b58572abb14d09179",
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "bib_key": "huber1964",
+      "source_id": "source_19fe5d517218d3b66bbdd"
+    }
+  ]
+}

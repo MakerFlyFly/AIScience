@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0",
+  "project_id": "{{ project_id }}",
+  "stage": "received",
+  "status": "active",
+  "revision": 0,
+  "updated_at": "{{ created_at_utc }}",
+  "gates": {},
+  "stale_artifact_ids": []
+}
+

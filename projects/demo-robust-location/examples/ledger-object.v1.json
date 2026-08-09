@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "project_id": "demo-project",
+  "object_id": "claim_019000000000abcdef12",
+  "object_type": "claim",
+  "version": 1,
+  "supersedes": null,
+  "created_at": "2030-01-01T00:00:00Z",
+  "status": "active",
+  "dependencies": [],
+  "anchor_event_id": "event_019000000001abcdef12",
+  "payload": {
+    "canonical_text_en": "Illustrative claim; not research evidence.",
+    "reader_text_zh": "示例主张；不是研究证据。",
+    "support_status": "insufficient",
+    "fixture_only": true
+  }
+}

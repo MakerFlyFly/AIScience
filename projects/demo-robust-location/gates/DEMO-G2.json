@@ -1,0 +1,6 @@
+{
+  "gate_id": "G2",
+  "message_zh": "此记录仅验证模板；不得用于正式交付。",
+  "schema_version": "1.0",
+  "status": "demo_only_not_human_approval"
+}

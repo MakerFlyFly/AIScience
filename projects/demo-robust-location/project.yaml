@@ -1,0 +1,45 @@
+schema_version: '1.0'
+project_id: demo-robust-location
+title_zh: 污染正态分布下均值与中位数的位置估计稳健性比较
+title_en: Mean versus Median under Normal Contamination
+created_at: '2026-08-09T09:22:55.364760Z'
+language:
+  conversation: zh-CN
+  canonical_paper: en
+  reader_paper: zh-CN
+defaults:
+  paid_budget: 0
+  gpu_authorized: false
+  experiment_concurrency: 1
+  network_after_g0: true
+g1_required: false
+research_contract:
+  success_criteria:
+  - 固定种子结果、双语论文、审核与候选包全部生成
+  scope_in:
+  - 本地合成数据上的均值与中位数稳健性比较
+  scope_out:
+  - 真实数据、联网检索、外部上传与普适优越性主张
+  confidentiality: 公开的纯合成演示 fixture
+  data_license_ethics: 纯合成数据；演示输出采用 CC BY 4.0；来源元数据保留原许可。
+  deliverables:
+  - 结果表
+  - 双语论文与 PDF
+  - 审核记录
+  - 候选 manifest
+  public_query_boundary: 禁止联网；仅使用仓库内本地文献 fixture
+limits:
+  time_hours: 0.25
+  max_runs: 3
+  disk_mib: 100
+  data_scope: synthetic_demo_only
+reproduction_target: full
+authors:
+- AIScience Demo Team
+ai_disclosure:
+  used: true
+  en: AI agents assisted workflow orchestration and drafting; all claims are bound
+    to the audited local ledger.
+  zh: AI 代理参与了工作流编排与草拟；全部主张均绑定到已审核的本地台账。
+delivery_license_statement: 'Demo outputs: CC BY 4.0; source metadata retains its
+  stated license.'

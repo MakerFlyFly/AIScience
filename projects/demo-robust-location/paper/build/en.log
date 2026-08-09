@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-08-09T09:23:04.185979Z",
+  "command": [
+    "$EXECUTABLE/pandoc.EXE",
+    "$PROJECT/paper/en/manuscript.md",
+    "--from=markdown",
+    "--standalone",
+    "--citeproc",
+    "--bibliography=$PROJECT/paper/references.bib",
+    "--pdf-engine=xelatex",
+    "--resource-path=$PROJECT/paper",
+    "--output",
+    "$PROJECT/paper/build/manuscript-en.pdf"
+  ],
+  "return_code": 0,
+  "stdout": "",
+  "stderr": ""
+}

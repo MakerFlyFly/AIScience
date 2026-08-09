@@ -1,0 +1,19 @@
+{
+  "demo_only": true,
+  "findings": [
+    {
+      "code": "LIMITED_EXTERNAL_VALIDITY",
+      "disposition": "已在双语稿局限部分披露",
+      "risk": "low"
+    }
+  ],
+  "reproducibility": "full",
+  "review_id": "review_19fe5d517211fea992ff7",
+  "risk_counts": {
+    "high": 0,
+    "low": 1,
+    "medium": 0
+  },
+  "schema_version": "1.0",
+  "status": "passed_for_demo_candidate"
+}

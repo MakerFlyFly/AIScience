@@ -1,0 +1,18 @@
+{
+  "access_level": "metadata_only",
+  "arxiv_id": null,
+  "correction_notes_zh": [],
+  "doi": "10.1214/aoms/1177703732",
+  "fulltext_sha256": null,
+  "license": "metadata fixture; article rights retained by publisher",
+  "local_fixture": false,
+  "metadata_sha256": null,
+  "project_id": "demo-robust-location",
+  "retracted": false,
+  "schema_version": "1.0",
+  "search_snapshot_sha256": null,
+  "source_id": "source_19fe5d517218d3b66bbdd",
+  "title": "Robust Estimation of a Location Parameter",
+  "url": null,
+  "version_label": "published-record"
+}
